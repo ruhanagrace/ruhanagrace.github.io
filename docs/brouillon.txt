@@ -1,0 +1,12 @@
+
+<div class="section3">
+    <div class="col-4 col-s-4">
+        <img src="img/ru2.jpg" id="section3" alt="">
+    </div>
+    <div class="col-4 col-s-4">
+        <img src="img/ru3.jpg" id="section3" alt="">
+    </div>
+    <div class="col-4 col-s-4">
+        <img src="img/ru4.jpg" id="section3" alt="">
+    </div>
+</div>
