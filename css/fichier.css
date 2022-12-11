@@ -70,9 +70,6 @@
   .texte{
     color: #121010;
     font-weight: bold;
-   
-    
-
   }
   .section3{
     width: 100%;
@@ -147,7 +144,7 @@
   }
 
   #photo{
-    border-radius: 200%;
+    border-radius:450px;
   }
 #section3{
   width: 339px;
