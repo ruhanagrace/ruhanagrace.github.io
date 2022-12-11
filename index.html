@@ -22,16 +22,16 @@
 <body>
 <div class="header">
     <div class="row">
-        <div class="col-3 col-s-3">
+        <div class="col-3 col-s-12">
             <h1>RuHaNa_Portfolio</h1>
         </div>
-        <div class="col-9 col-s-9">
+        <div class="col-9 col-s-12">
             <ul>
                 <a href=""><li>Accueil</li></a>
                 <a href=""><li>Moi</li></a>
                 <a href=""><li>Portfolio</li></a>
                 <a href=""><li>Clients</li></a>
-              </ul>
+            </ul>
         </div>
     </div>
 </div>
@@ -39,13 +39,13 @@
 <div class="aside">
     <div class="row">
         <div class="col-2 col-s-6"></div>
-        <div class="col-4>
+        <div class="col-4">
              <h1 id="hr">Ruhana<span style="font-size: 100px; color:#6FEEFF; ">.</span></h1>
             <span>DEVELOPPEUR WEB MOBILE & GRAPHIC DESIGNER</span>
         </div>
- 
+       
         <div class="col-4 col-s-6">
-            <img src="img/ru1.jpg" width="100%" height="300px" id="photo"/>
+            <img src="img/ruA.jpeg" height="300px" id="photo"/>
         </div>
         <div class="col-2"></div>
     </div>
@@ -89,8 +89,10 @@
             </div>
         </div>
     </div>
-    <!--filter: blur(5px); pour flouter l'image-->
-    <div style="background-image:url('img/dev.jpg'); background-image: no repeat; padding: 50px; ">
+    <!--filter: blur(5px); pour flouter l'image
+    style="background: url('img/dev.jpg'); background-image: no-repeat;"
+    -->
+    <div class="temoignage">
         <div class="row">
             <div class="image"></div>
             <div class="col-6">
@@ -140,12 +142,12 @@
         </div>
         <div class="col-4">
             <h2>Me connaitre</h2>
-            <img src="img/a.png" alt="">
-            <img src="img/b.png" alt="">
-            <img src="img/c.png" alt="">
-            <img src="img/d.png" alt="">
-            <img src="img/e.png" alt="">
-            <img src="img/f.png" alt="">
+            <img src="img/a.png" class="imgf" alt="">
+            <img src="img/b.png" class="imgf" alt="">
+            <img src="img/c.png" class="imgf" alt="">
+            <img src="img/d.png" class="imgf" alt="">
+            <img src="img/e.png" class="imgf" alt="">
+            <img src="img/f.png" class="imgf" alt="">
         </div>
     </div>
     <div class="form">
@@ -154,15 +156,16 @@
             <input type="text" placeholder="Nom"><br>
             <input type="text" placeholder="Adresse email">
             <input type="text" placeholder="Sujet"><br>
-            <input type="text" placeholder="Message" id="hf"><br><br><br>
+            <textarea placeholder="Message" id="hf"></textarea><br><br><br>
             <button>Envoyer</button>
         </form>
+        <div class="footer">
+            <p style="color: black; font-weight: bold;">© Ruhana 2022</p>
+        </div>
     </div>
-   
+    
 </div>
-<div class="footer">
-    <p>© Ruhana 2022</p>
-  </div>
+
 </body>
 </html>
 
