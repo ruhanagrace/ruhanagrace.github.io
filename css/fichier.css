@@ -16,6 +16,9 @@
   html {
     font-family: "Lucida Sans", sans-serif;
   }
+ul li a{
+    color:white;
+}
   
   .header {
     background-color: #121010;
