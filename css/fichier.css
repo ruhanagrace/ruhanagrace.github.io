@@ -151,7 +151,6 @@ background-color:  #6FEEFF;
 #photo{
   border-radius:450px;
   width: 400px;
-  height: auto;
 }
 @media (max-width:450px){
   #photo{
